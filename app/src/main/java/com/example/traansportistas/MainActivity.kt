@@ -24,7 +24,10 @@ class MainActivity : ComponentActivity() {
                         Transporte(1, "Valencia", "Madrid", 1200, EstadoEnvio.EN_TRANSITO, 450.0),
                         Transporte(2, "Barcelona", "Sevilla", 2500, EstadoEnvio.PENDIENTE, 890.0),
                         Transporte(3, "Bilbao", "Zaragoza", 800, EstadoEnvio.ENTREGADO, 310.0),
-                        Transporte(4, "Alicante", "Murcia", 450, EstadoEnvio.PENDIENTE, 180.0)
+                        Transporte(4, "Alicante", "Murcia", 450, EstadoEnvio.PENDIENTE, 180.0),
+                        Transporte(id = 5, origen = "Alicante", destino = "Murcia",pesoKg = 450, estado = EstadoEnvio.ENTREGADO,precio = 300.0),
+                        Transporte(id = 6,origen = "Alicante",destino = "Murcia",pesoKg = 603,estado = EstadoEnvio.EN_TRANSITO,precio = 800.0
+                        )
                     )
 
                     MainScreen(
